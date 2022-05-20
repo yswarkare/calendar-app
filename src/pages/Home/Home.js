@@ -5,8 +5,8 @@ import Calendar from '../../components/Calendar/Calendar';
 const Home = () => {
 	return (
 		<div className={`w-full flex flex-col justify-center content-center items-center`}>
-			<AddHoliday />
       <Calendar />
+			<AddHoliday />
 		</div>
 	);
 };
