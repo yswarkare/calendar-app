@@ -23,13 +23,13 @@ const Calendar = () => {
 
 	return (
 		<div className='App'>
-			<h1>Calendar</h1>
+			<h2>Calendar</h2>
 			<NewCalendar
 				localizer={localizer}
 				events={allHolidays}
 				startAccessor='start'
 				endAccessor='end'
-				style={{ height: 500, margin: '50px' }}
+				style={{ height: 500, margin: '30px' }}
 			/>
 		</div>
 	);
